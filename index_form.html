@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM FORM</title>
+</head>
+<link rel="stylesheet" href="./mystyle.css">
+
+<!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> -->
+<body>
+    <header class="header"><div class="left">
+<img src="IMAGES/logo.png" alt="LOGO">
+<div class="title">Muscle<span>FIT</span></div>
+    </div>
+
+<div class="mid">
+<ul class="navbar">
+    <li><a href="index.html">HOME</a></li>
+    <!-- <li><a href="index.html">ABOUT US</a></li>
+    <li><a href="index.html">PROGRAMS</a></li>
+    <li><a href="index.html">CONTACT US</a></li> -->
+    
+</ul>
+</div>
+<div class="right">
+<a class="btn" href="index.html">KNOW MORE</a>
+<!-- <button class="btn">JOIN US NOW</button> -->
+</div>
+
+</header>
+<div class="quote">
+<p>WORK HARD IN THE GYM UNTIL YOUR BAD BECOMES YOUR GOOD AND YOUR GOOD BECOMES YOUR BEST !! </p>
+</div>
+<div class="container">
+   <h1>JOIN THE BEST GYM OF CITY</h1>
+   <form action="connect.php" method="POST">
+       <div class="formgroup">
+           <input type="text" name="name" id="name" placeholder="ENTER YOUR NAME" required>
+       </div>
+       <div class="formgroup">
+           <input type="text" name="age" id="age" placeholder="ENTER YOUR AGE" required>
+       </div>
+       <div class="formgroup">
+           <input type="text" name="height" id="height" placeholder="ENTER YOUR HEIGHT(IN KG)" required>
+       </div>
+       <div class="formgroup">
+           <input type="text" name="weight" id="weight" placeholder="ENTER YOUR WEIGHT(IN KG'S)" required>
+       </div>
+       <div class="formgender">
+        GENDER : &nbsp; 
+        Male <input type="radio" name="gender" id="gender" value = "Male" required>
+        Female<input type="radio" name="gender" id="gender" value = "Female"  required>
+        Other<input type="radio" name="gender" id="gender" value = "Other"  required>
+    </div>
+       <div class="formgroup">
+           <input type="text" name="address" id="address" placeholder="ENTER YOUR ADDRESS" required>
+       </div>
+       <div class="formgroup">
+           <input type="text" name="email" id="email" placeholder="ENTER YOUR EMAIL" required>
+       </div>
+       <button class="btn">SUBMIT</button>
+   </form>
+</div>
+<script>
+    console.log("This is working ");
+</script>
+</body>
+</html>

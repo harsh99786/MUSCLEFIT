@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: black;
+    color: white;
+}
+.navbar-brand{
+    color: white;
+}
+.navbar-brand:hover{
+    white-space: white;
+}
+span{
+    color: rgb(255, 196, 0);
+    cursor: pointer;
+}
+.nav-item{
+    padding-right: 50px;
+}
+.nav-link{
+    color: white;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color:rgb(239, 27, 27)
+}
+#my_button{
+    color: white;
+}
+
+/* main */
+.main{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(./imgs/young-fitness-man-studio.jpg)no-repeat;
+    background-size: cover;   
+    height: 110vh; 
+}   
+.main h1{
+    font-size: 5rem;
+    font-weight: 800;
+}
+.btn1{
+    height: 55px;
+    width: 140px;
+    color: white;
+    outline: none;
+    border: none;
+    background: linear-gradient(90deg,rgb(18, 157, 227) 0%,rgb(255, 196, 0) 100%);
+}
+.btn1:hover{
+    background: linear-gradient(90deg,rgb(255, 196, 0) 0%,rgb(18, 157, 227) 100%);
+    transition: all 1s;
+}
+
+/* =====details=====*/
+.details{
+    margin-top: -50;
+}
+.details h5{
+    font-size: 1.5rem;
+ 
+}
+.details a{
+    text-decoration: none;
+    color: orange;
+}
+.back:hover{
+    color: white;
+    cursor: pointer;
+}
+.back{
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: all 0.8s;
+}
+.back::before{
+    content: "";
+    position: absolute;
+    height: 0px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background: linear-gradient(90deg,rgb(18, 157, 227) 0%,rgb(255, 196, 0) 100%);
+    z-index: -1;
+    transition: all 0.5s;
+}
+
+.back:hover::before{
+height: 100%;
+}
+.back:hover a{
+color: white;
+cursor: pointer
+}
+
+
+/* =======MORESECTION======== */
+.more h2{
+    font-weight: 800;
+}
+.more p{
+    font-weight: lighter;
+}
+p{
+    font-size: 1.1rem;
+}
+
+
+/* ====DISCOVER===== */
+.discover{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(./imgs/water.jpg)no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+/* ======SERVICES===== */
+.services h1{
+    font-weight: 900;
+    font-size: 2.8rem;
+}
+.services h5{
+    font-weight: 700;
+}
+.footer{
+    background-color: #8b339d;
+    color: white;
+}
+.footer h4,h5{
+    font-weight: 900;
+}
+.footer p{
+    margin: 0;
+    color: white(255, 255, 255);
+}
+.icons{
+    background-color: black;
+}
+.fa-linkedin {
+    padding: 10px 10px;
+    color: white;
+    font-size: 51px;
+}
+.fa-instagram {
+    padding: 10px 10px;
+    color: white;
+    font-size: 51px;
+}
+.fa-github{
+    padding: 10px 10px;
+    color: white;
+    font-size: 51px;
+}

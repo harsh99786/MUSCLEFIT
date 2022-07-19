@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HARSHDEEP GYM</title>
+</head>
+<link rel="stylesheet" href="D:\visualstudiocode\PROJECT1\CSS\style.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<style>
+    /* CSS Reset */
+    body{
+        font-family: 'Roboto', sans-serif;
+        margin: 0px;
+        padding: 0px;
+        background: url('IMAGES/background.jpeg');
+        background-size: cover;
+        color: white;
+    }
+    .left{
+        background-color: darkslategrey;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    /* border: 2px solid red; */
+    display: inline-block;
+    /* COLOR: black; */
+    font-weight: bold;
+    font-size: 20px;
+    }
+    .left img{
+        width: 97px;
+    margin-left: 40px;
+    }
+    .left div{
+        text-align: center;
+    }
+    .mid{
+        background-color: rgb(29, 27, 27);
+        display: block;
+        width: 39%;
+        margin: 20px auto;
+        /* border: 2px solid yellow; */
+    }
+    .right{
+        
+        position: absolute;
+        right: 10px;
+        top: 20px;
+        /* border: 2px solid green; */
+        display: inline-block;
+    }
+    .navbar{
+    display: inline-block;
+    }
+    .navbar li{
+        
+        display: inline-block;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 14px;
+        font-size: 17px;
+        font-weight: bold;
+    }
+    .navbar li a:hover,.navbar li a:active{
+    text-decoration: underline;
+    color: gray;
+    
+    }
+    .btn{
+        margin: 0px 6px;
+        color: white;
+        background-color: black;
+        padding: 0px 5px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        
+    }
+    .btn:hover{
+        background-color: rgb(165, 155, 155);
+    /* text-decoration: underline; */
+    }
+    .btn:active{
+        background-color: rgb(207, 128, 207);
+    }
+    .container{
+        border: 6px solid white;
+    margin: 150px 64px;
+    padding: 55px 34px;
+    width: 36%;
+    display: block;
+    border-radius: 12px;
+    cursor: pointer;
+    }
+    .formgroup input{
+        background-color: rgb(226, 243, 128);
+        text-align: center;
+    display: block;
+    width: 400px;
+    padding: 5px;
+    border: 2px solid grey;
+    margin: 12px auto;
+    border-radius: 20px;
+    font-size: 20px;
+    }
+    .formgender{
+    background-color: rgb(226, 243, 128);
+    text-align: center;
+    display: block;
+    width: 400px;
+    padding: 5px;
+    border: 2px solid grey;
+    margin: 12px auto;
+    border-radius: 20px;
+    color: grey;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    }
+    .container h1{
+        text-align: center;
+        color: white;
+        background-color: black;
+    }
+    .container button{
+       
+        display: block;
+    width: 38%;
+    margin: auto;
+    font-size: x-large;
+    }
+    .quote{
+        color: #e7ed86;
+        font-family: 'Roboto', sans-serif;
+    float: right;
+    width: 36%;
+    display: block;
+    border-radius: 12px;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    }
+    .quote p{
+        text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    }
+</style>
+<body>
+    <header class="header"><div class="left">
+<img src="IMAGES/logo.png" alt="LOGO">
+<div>HARSHDEEP'S GYM</div>
+    </div>
+
+<div class="mid">
+<ul class="navbar">
+    <li><a href="#">HOME</a></li>
+    <li><a href="#">ABOUT US</a></li>
+    <li><a href="#">PROGRAMS</a></li>
+    <li><a href="#">CONTACT US</a></li>
+    
+</ul>
+</div>
+<div class="right">
+<button class="btn">FREE TRIAL</button>
+<button class="btn">JOIN US NOW</button>
+</div>
+
+</header>
+<div class="quote">
+<p>WORK HARD IN THE GYM UNTIL YOUR BAD BECOMES YOUR GOOD AND YOUR GOOD BECOMES YOUR BEST !! </p>
+</div>
+<div class="container">
+   <h1>JOIN THE BEST GYM OF CITY</h1>
+   <form action="noaction.php">
+       <div class="formgroup">
+           <input type="text" name="" placeholder="ENTER YOUR NAME">
+       </div>
+       <div class="formgroup">
+           <input type="text" name="" placeholder="ENTER YOUR AGE">
+       </div>
+       <div class="formgender">
+           GENDER : &nbsp; MALE <input type="radio" name="myGender" id="">  FEMALE<input type="radio" name="myGender" id="">
+       </div>
+       <div class="formgroup">
+           <input type="text" name="" placeholder="ENTER YOUR ADDRESS">
+       </div>
+       <button class="btn">SUBMIT</button>
+   </form>
+</div>
+<script>
+    console.log("This is working ");
+    console.log("Yeh mera gym hai");
+</script>
+</body>
+</html>
